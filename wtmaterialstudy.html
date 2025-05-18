@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Landing Page</title>
+  <style>
+    /* Reset & base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* Hero section */
+    .hero {
+      background-image: url('F:\guys.jpeg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+    }
+
+    /* Overlay */
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.5); /* semi-transparent */
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    
+    .content h1 {
+      color: white;
+      font-size: 2rem;
+    }
+
+    .content p {
+      color: #ddd;
+      font-size: 1.2rem;
+      margin: 10px 0 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: orange;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: darkorange;
+    }
+
+    /* Responsive font sizes */
+    @media (max-width: 768px) {
+      .content h1 {
+        font-size: 2.2rem;
+      }
+
+      .content p {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .content h1 {
+        font-size: 1.5rem;
+      }
+
+      .content p {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="overlay">
+      <div class="content">
+        <h1>StuDying Material</h1>
+        <p>padhlo bhen ke bhaiyo :) </p>
+        <a href="https://drive.google.com/drive/u/2/folders/1M0fYFjie6qbS1ZV0cZfEtLHHriuobZio" class="btn">WT</a>
+	<a href="https://drive.google.com/drive/u/0/folders/1wXbb-6-aprTqADws-bAhc-QYd8_IHbNl" class="btn">MATHS</a>
+	<a href="https://drive.google.com/drive/u/2/folders/1AFUyz57FZ1H59_ufDimFeUPOhd-vOI6u" class="btn">MAD</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
